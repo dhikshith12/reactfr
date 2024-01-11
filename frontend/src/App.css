@@ -1,0 +1,26 @@
+body{
+ background-color: #F7F8FB;
+ font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width:720px) {
+  body{
+    width: 100vw;
+  }
+  .card{
+    width:90% !important;
+  }
+  .time{
+    
+  }
+  .available-shift-entry{
+    font-size: small !important;
+  }
+}
